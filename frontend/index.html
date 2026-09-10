@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voice Safety Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🛡️ Voice Safety Assistant</h1>
+            <p>Speak naturally and check your safety level.</p>
+        </header>
+
+        <main>
+
+            <div class="voice-section">
+
+                <button id="startButton">
+                    🎤 Start Listening
+                </button>
+
+                <button id="stopButton" disabled>
+                    ⏹ Stop Listening
+                </button>
+
+                <p id="status">Press "Start Listening" and speak.</p>
+
+            </div>
+
+
+            <div class="speech-box">
+
+                <h2>What I Heard</h2>
+
+                <p id="transcript">
+                    Your speech will appear here...
+                </p>
+
+            </div>
+
+
+            <div class="result-box">
+
+                <h2>Safety Result</h2>
+
+                <div id="safetyLevel" class="level low">
+                    LOW
+                </div>
+
+                <p id="message">
+                    No immediate safety concern detected.
+                </p>
+
+                <p id="action">
+                    Stay aware of your surroundings.
+                </p>
+
+            </div>
+
+        </main>
+
+
+        <footer>
+            <p>Voice Safety Assistant — Prototype</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

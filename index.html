@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Voice Safety Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎙️ Voice Safety Assistant</h1>
+
+        <p>
+            Speak naturally and receive a voice response.
+        </p>
+
+        <div id="status">
+            Ready
+        </div>
+
+        <div class="buttons">
+
+            <button id="startBtn" type="button">
+                🎤 Start Speaking
+            </button>
+
+            <button id="stopBtn"
+                    type="button"
+                    disabled>
+                ⏹️ Stop
+            </button>
+
+        </div>
+
+        <div class="box">
+
+            <h2>🗣️ You said:</h2>
+
+            <p id="userText">
+                Nothing yet...
+            </p>
+
+        </div>
+
+        <div class="box">
+
+            <h2>🤖 Assistant:</h2>
+
+            <p id="assistantText">
+                Waiting for your voice...
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
